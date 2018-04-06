@@ -1,7 +1,7 @@
 version: '3'
 services:
   eth-stats:
-    image: quay.io/maicoin/eth-netstats:latest
+    image: quay.io/amis/ethstats:latest
     ports:
       - '3000:3000'
     environment:
